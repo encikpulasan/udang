@@ -60,7 +60,7 @@ export default function LogoCarousel() {
       >
         {/* Tech company logos - for illustration purposes */}
         <img 
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/HTM_Group_logo.svg/320px-HTM_Group_logo.svg.png" 
+          src="https://upload.wikimedia.org/wikipedia/commons/1/12/Wikimedia_logo_text_RGB.svg" 
           alt="Client 1" 
           class="h-12 grayscale hover:grayscale-0 transition-all duration-300" 
         />
@@ -75,12 +75,12 @@ export default function LogoCarousel() {
           class="h-12 grayscale hover:grayscale-0 transition-all duration-300" 
         />
         <img 
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Maxis_Communications_logo.svg/320px-Maxis_Communications_logo.svg.png" 
+          src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Maxis_Communications_logo.svg/2880px-Maxis_Communications_logo.svg.png" 
           alt="Client 4" 
           class="h-12 grayscale hover:grayscale-0 transition-all duration-300" 
         />
         <img 
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Telekom_Malaysia_Logo.svg/320px-Telekom_Malaysia_Logo.svg.png" 
+          src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Telekom_Malaysia_logo_%282023%29.svg" 
           alt="Client 5" 
           class="h-12 grayscale hover:grayscale-0 transition-all duration-300" 
         />

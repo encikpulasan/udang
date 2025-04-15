@@ -20,7 +20,7 @@ export default function Home() {
         <header class="bg-white dark:bg-sofehaus-gray-900 sticky top-0 z-50 shadow-sm dark:shadow-sofehaus-gray-800/30 theme-transition">
           <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
             <div class="flex items-center">
-              <img src="/logo.svg" alt="SOFEHAUS Logo" class="h-10 w-auto" />
+              <img src="/logo.png" alt="SOFEHAUS Logo" class="h-10 w-auto" />
               <span class="ml-3 text-xl font-bold text-sofehaus-dark dark:text-white">SOFEHAUS</span>
             </div>
             <div class="hidden md:flex items-center space-x-8">
@@ -179,11 +179,11 @@ export default function Home() {
                 <h3 class="text-xl font-bold text-sofehaus-dark dark:text-white mb-2">Project Collaboration</h3>
                 <p class="text-sofehaus-gray-600 dark:text-sofehaus-gray-300">Working together with your team to bring innovative ideas to life through effective collaboration.</p>
               </div>
-              <div class="bg-sofehaus-light dark:bg-sofehaus-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 animate-slideUp hover-lift dark:border dark:border-sofehaus-gray-700" style="animation-delay: 600ms">
+              <div class="bg-sofehaus-light dark:bg-sofehaus-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 animate-slideUp hover-lift dark:border dark:border-sofehaus-gray-700" style="animation-delay: 500ms">
                 <div class="w-12 h-12 bg-sofehaus-primary rounded-full flex items-center justify-center mb-4">
-                  <i class="fas fa-lightbulb text-white text-xl"></i>
+                <i class="fas fa-lightbulb text-white text-xl"></i>
                 </div>
-                <h3 class="text-xl font-bold text-sofehaus-dark dark:text-white mb-2">Technology Consultation</h3>
+                <h3 class="text-xl font-bold text-sofehaus-dark dark:text-white mb-2">Technology Consultationn</h3>
                 <p class="text-sofehaus-gray-600 dark:text-sofehaus-gray-300">Providing expert advice on the best technology solutions to help your business thrive.</p>
               </div>
             </div>
@@ -236,21 +236,30 @@ export default function Home() {
               <p class="text-sofehaus-gray-600 dark:text-sofehaus-gray-300 max-w-2xl mx-auto">We're proud to contribute to the education and development of the next generation of IT professionals.</p>
             </div>
             <div class="bg-sofehaus-light dark:bg-sofehaus-gray-800 p-8 rounded-lg shadow-md animate-slideUp">
-              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="flex flex-col items-center text-center">
-                  <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=2070" alt="Kolej Komuniti Ampang" class="w-24 h-24 rounded-full object-cover mb-4" />
+                  <div class="w-16 h-16 rounded-full flex items-center justify-center bg-sofehaus-primary text-white mb-4">
+                    <i class="fas fa-user-tie text-2xl"></i>
+                  </div>
                   <h3 class="text-xl font-bold text-sofehaus-dark dark:text-white mb-2">Academic Advisor</h3>
-                  <p class="text-sofehaus-gray-600 dark:text-sofehaus-gray-300">Kolej Komuniti Ampang, Kuala Lumpur</p>
+                  <p class="text-sofehaus-gray-600 dark:text-sofehaus-gray-300 mb-3">Kolej Komuniti Ampang, Kuala Lumpur</p>
+                  <p class="text-sofehaus-gray-600 dark:text-sofehaus-gray-300 text-sm">Providing expert guidance on curriculum development and industry-relevant skills for future IT professionals.</p>
                 </div>
                 <div class="flex flex-col items-center text-center">
-                  <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=2071" alt="Kolej Komuniti Ampang" class="w-24 h-24 rounded-full object-cover mb-4" />
+                  <div class="w-16 h-16 rounded-full flex items-center justify-center bg-sofehaus-primary text-white mb-4">
+                    <i class="fas fa-users-cog text-2xl"></i>
+                  </div>
                   <h3 class="text-xl font-bold text-sofehaus-dark dark:text-white mb-2">Industry Advisory Committee</h3>
-                  <p class="text-sofehaus-gray-600 dark:text-sofehaus-gray-300">Kolej Komuniti Ampang, Kuala Lumpur</p>
+                  <p class="text-sofehaus-gray-600 dark:text-sofehaus-gray-300 mb-3">Kolej Komuniti Ampang, Kuala Lumpur</p>
+                  <p class="text-sofehaus-gray-600 dark:text-sofehaus-gray-300 text-sm">Bridging the gap between academic education and industry requirements through strategic recommendations.</p>
                 </div>
                 <div class="flex flex-col items-center text-center">
-                  <img src="https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1786" alt="POLIMAS" class="w-24 h-24 rounded-full object-cover mb-4" />
+                  <div class="w-16 h-16 rounded-full flex items-center justify-center bg-sofehaus-primary text-white mb-4">
+                    <i class="fas fa-graduation-cap text-2xl"></i>
+                  </div>
                   <h3 class="text-xl font-bold text-sofehaus-dark dark:text-white mb-2">Industry Advisory Committee</h3>
-                  <p class="text-sofehaus-gray-600 dark:text-sofehaus-gray-300">POLITEKNIK SULTAN ABDUL HALIM MU'ADZAM SHAH (POLIMAS), Kedah</p>
+                  <p class="text-sofehaus-gray-600 dark:text-sofehaus-gray-300 mb-3">Politeknik Sultan Abdul Halim Mu'adzam Shah, Kedah</p>
+                  <p class="text-sofehaus-gray-600 dark:text-sofehaus-gray-300 text-sm">Collaborating with polytechnic education to enhance student learning and prepare graduates for the evolving tech industry.</p>
                 </div>
               </div>
               <div class="mt-12 text-center">
@@ -292,7 +301,7 @@ export default function Home() {
                       </div>
                       <div>
                         <p class="text-sm text-sofehaus-gray-400">Location</p>
-                        <p class="text-white">Kuala Lumpur, Malaysia</p>
+                        <p class="text-white">Nilai, Negeri Sembilan, Malaysia</p>
                       </div>
                     </div>
                     <div class="flex items-start">
@@ -334,7 +343,7 @@ export default function Home() {
             <div class="flex flex-col md:flex-row justify-between mb-8">
               <div class="mb-8 md:mb-0">
                 <div class="flex items-center mb-4">
-                  <img src="/logo.svg" alt="SOFEHAUS Logo" class="h-8 w-auto" />
+                  <img src="/logo.png" alt="SOFEHAUS Logo" class="h-8 w-auto" />
                   <span class="ml-3 text-lg font-bold">SOFEHAUS</span>
                 </div>
                 <p class="text-sofehaus-gray-400 max-w-md">SOFEHAUS PLT is a Malaysian startup software house focusing on developing in-house products while also offering UI/UX design and IT development services.</p>
